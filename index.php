@@ -12,7 +12,7 @@ $res = mysql_query("SELECT * FROM articles;");
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
-	<?php include'./bloks/favicon.php'; ?>
+	<?php include 'bloks/favicon.php'; ?>
 </head>
 
 <body>

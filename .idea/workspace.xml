@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe9c4018-3721-4348-9d5b-f341aeabc17f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.php" afterPath="$PROJECT_DIR$/article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.php" afterPath="$PROJECT_DIR$/articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bloks/tags.php" afterPath="$PROJECT_DIR$/bloks/tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bloks/favicon.php" afterPath="$PROJECT_DIR$/bloks/favicon.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="gts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,13 +29,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1320753">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.773585">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
-                <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-                <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-                <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-                <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+                <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+                <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+                <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+                <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
               </folding>
             </state>
           </provider>
@@ -49,17 +45,7 @@
         <entry file="file://$PROJECT_DIR$/bloks/favicon.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="0" column="69" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -87,8 +73,8 @@
         <option value="$PROJECT_DIR$/service_list.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/connect.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/bloks/favicon.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -225,7 +211,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.186875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -268,10 +254,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+            <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+            <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
           </folding>
         </state>
       </provider>
@@ -281,10 +267,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
           <folding>
-            <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+            <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+            <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
           </folding>
         </state>
       </provider>
@@ -308,10 +294,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+            <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+            <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
           </folding>
         </state>
       </provider>
@@ -328,10 +314,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+            <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+            <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
           </folding>
         </state>
       </provider>
@@ -457,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
+        <state vertical-scroll-proportion="0.04775281">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
@@ -465,21 +451,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1320753">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.773585">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <marker date="1448689156107" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448689156107" expanded="true" signature="971:996" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1117:1376" placeholder="..." />
-            <marker date="1448689156107" expanded="true" signature="1576:1622" placeholder="SELECT COUNT..comments..." />
+            <marker date="1448690502364" expanded="true" signature="48:70" placeholder="SELECT * FRO..articles..." />
+            <marker date="1448690502364" expanded="true" signature="970:995" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1116:1375" placeholder="..." />
+            <marker date="1448690502364" expanded="true" signature="1575:1621" placeholder="SELECT COUNT..comments..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bloks/favicon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="69" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
           <folding />
         </state>
       </provider>
