@@ -1,10 +1,13 @@
 <?php include'connect.php';
-if(isset($_GET['id'])){
-    $id = $_GET['id'];
-}
-
-$res = mysql_query("SELECT * FROM articles WHERE id=$id;");
-$row = mysql_fetch_array($res);
+ 
+ if (isset($_GET['tag'])){
+     $query = $_GET['tag'];
+ }
+    $query = trim($query); 
+    $query = mysql_real_escape_string($query);
+    $query = htmlspecialchars($query);
+    
+    
 
 ?>
 
@@ -13,9 +16,9 @@ $row = mysql_fetch_array($res);
 <head>
 	<meta charset="utf-8" />
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<title><?php echo $row['title'];?></title>
-	<meta name="keywords" content="<?php echo $row['meta_k'];?><" />
-	<meta name="description" content="<?php echo $row['meta_d'];?>" />
+	<title>Главная</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
 </head>
 
@@ -44,10 +47,26 @@ $row = mysql_fetch_array($res);
 			<main class="content">
 				
 							<?php
-							
+                                                        
+                                                        if(!empty($query)){
+                                                            
+                                                                
+                    $res = mysql_query("SELECT * FROM articles WHERE title LIKE '%$query%' OR description LIKE '%$query%' OR text LIKE '%$query%' OR meta_k LIKE '%$query%' OR meta_d LIKE '%$query%'");
+                    $searchCount = mysql_result(mysql_query("SELECT COUNT(*) FROM articles WHERE title LIKE '%$query%' OR description LIKE '%$query%' OR text LIKE '%$query%' OR meta_k LIKE '%$query%' OR meta_d LIKE '%$query%'"), 0);
+                        
+                    echo '<div class="content_main">
+                                                    <div id="preview">';
+                                            echo "<h3># ТЕги:</h3><br>";
+                                                                echo '<p>По тегу: <span style="color: #545454;
+	font: 12pt Verdana-Regular, Verdana;
+	text-transform: uppercase;">"'.$query.'"</span> найдено ('.$searchCount.') результатов!</p>';
+                                            echo '</div></div>';                 
+                                                                
+                                                        
+							while($row = mysql_fetch_array($res)){
                                                             echo '<div class="content_main">
-						<div id="preview">';
-								echo "<h3>".$row['title']."</h3>";
+                                                                    <div id="preview">';
+								echo "<h3><a href=\"article.php?id=".$row['id']."\">".$row['title']."</a></h3>";
 								echo "<ul id='icons'>
 							<li><img src=\"img/cal.png\"><span class='iconsText'>".$row['date']."</span></li>
 							<li><img src=\"img/user.png\"><span class='iconsText'>".$row['author']."</span></li>
@@ -67,43 +86,20 @@ $row = mysql_fetch_array($res);
                                                                 echo '<img src="'.$row['img'].'" width="470" height="272">';
                                                                 }
                                                                 
-                                                                echo $row['text']."<br>";
+                                                                echo $row['description']."<br>";
                                                                 
-                                                               
-							
+                                                                echo '</div>
+                                                                    </div>';
+							}
+                                                            
+                                                        } else {
+                                                            header("Refresh: 0; URL=index.php");
+                                                        }
+
+
 
 							?>
-                            
-                            
-                                                <div id="commentSend">
-                                                    <form action="send.php" method="POST">
-                                                        <ul>
-                                                            <li><span>Имя ></span><input type="text" name="name"></li>
-                                                            <li><span>E-mail ></span><input type="email" name="email"></li>
-                                                            <li><textarea name="text"></textarea>
-                                                                <input type="hidden" value="<?php echo $id;?>" name="id">
-                                                                <input type="hidden" value="<?php echo $row['rubric'];?>" name="rubricId">
-                                                            </li>
-                                                            <li><input id="btn" type="submit"></li>
-                                                        </ul>
-                                                    </form>
-                                                </div>
-                                            <div id="commentsGet">
-                                                <br>
-                                                <?php 
-                                                    $res2 = mysql_query("SELECT * FROM comments WHERE articleId=$id");
-                                                    while ($row2 = mysql_fetch_array($res2)){
-                                                        echo '<img src="img/guest.png" width="50"><br>';
-                                                        echo '<p id="name">'.$row2['name'].' '.$row2['date'].'<p>';
-                                                        echo '<p>'.$row2['text'].'</p><br>';
-                                                        
-                                                    }
-                                                ?>
-                                                
-                                                
-                                        </div>    
-                                    </div>
-				</div>
+
                                                     
 
 						
@@ -117,7 +113,7 @@ $row = mysql_fetch_array($res);
 			</div>
 		</aside><!-- .left-sidebar -->
 
-		<aside class="right-sidebar">
+                <aside class="right-sidebar" >
 			<?php include './bloks/search.php';
                         
                         include './bloks/lastnews.php';
