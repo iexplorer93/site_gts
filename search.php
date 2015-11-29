@@ -15,7 +15,7 @@
 <head>
 	<meta charset="utf-8" />
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<title>Главная</title>
+	<title>Поиск</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
@@ -61,6 +61,8 @@
                                                                 echo '<p>Слишком длинный поисковой запрос!!!</p>';
                                                                 echo '</div></div>';
                                                             } else {
+                                                                
+                                                                
                                                                 
                     $res = mysql_query("SELECT * FROM articles WHERE title LIKE '%$query%' OR description LIKE '%$query%' OR text LIKE '%$query%' OR meta_k LIKE '%$query%' OR meta_d LIKE '%$query%'");
                     $searchCount = mysql_result(mysql_query("SELECT COUNT(*) FROM articles WHERE title LIKE '%$query%' OR description LIKE '%$query%' OR text LIKE '%$query%' OR meta_k LIKE '%$query%' OR meta_d LIKE '%$query%'"), 0);

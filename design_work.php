@@ -7,6 +7,7 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
+	<?php include 'bloks/favicon.php'; ?>
 </head>
 
 <body>

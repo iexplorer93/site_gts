@@ -5,12 +5,12 @@
         <group>
             <file>file:/makc/www/gts.loc/index.php</file>
             <file>file:/makc/www/gts.loc/style.css</file>
-            <file>file:/makc/www/gts.loc/bloks/search.php</file>
-            <file>file:/makc/www/gts.loc/send.php</file>
+            <file>file:/makc/www/gts.loc/rubric.php</file>
+            <file>file:/makc/www/gts.loc/tag.php</file>
             <file>file:/makc/www/gts.loc/search.php</file>
+            <file>file:/makc/www/gts.loc/bloks/favicon.php</file>
             <file>file:/makc/www/gts.loc/articles.php</file>
             <file>file:/makc/www/gts.loc/bloks/nav.php</file>
-            <file>file:/makc/www/gts.loc/article.php</file>
         </group>
     </open-files>
 </project-private>
