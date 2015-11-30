@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe9c4018-3721-4348-9d5b-f341aeabc17f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.php" afterPath="$PROJECT_DIR$/articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.php" afterPath="$PROJECT_DIR$/automation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bloks/favicon.php" afterPath="$PROJECT_DIR$/bloks/favicon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bloks/nav.php" afterPath="$PROJECT_DIR$/bloks/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design_work.php" afterPath="$PROJECT_DIR$/design_work.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/link.php" afterPath="$PROJECT_DIR$/link.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag.php" afterPath="$PROJECT_DIR$/tag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telecommunications.php" afterPath="$PROJECT_DIR$/telecommunications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect.php" afterPath="$PROJECT_DIR$/connect.php" />
     </list>
     <ignored path="gts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,25 +24,7 @@
     <favorites_list name="gts" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04775281">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding>
-                <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-                <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-                <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-                <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-                <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-                <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,6 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,8 +117,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,9 +177,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -246,14 +218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -261,14 +225,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -276,14 +239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,14 +260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -327,14 +274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,26 +431,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04775281">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.6808199">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04775281">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <marker date="1448690594000" expanded="true" signature="120:149" placeholder="SELECT COUNT..articles..." />
-            <marker date="1448690594000" expanded="true" signature="416:472" placeholder="SELECT * FRO..articles..." />
-            <marker date="1448690594000" expanded="true" signature="1563:1588" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="1709:1968" placeholder="..." />
-            <marker date="1448690594000" expanded="true" signature="2168:2214" placeholder="SELECT COUNT..comments..." />
-            <marker date="1448690594000" expanded="true" signature="3669:3694" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
